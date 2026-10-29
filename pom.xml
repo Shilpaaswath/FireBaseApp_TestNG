@@ -39,7 +39,7 @@
         <version>3.5.2</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>TestNG.xml</suiteXmlFile>
+            <suiteXmlFile>FireBaseAppTestNG.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
