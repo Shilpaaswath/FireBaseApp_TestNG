@@ -1,0 +1,21 @@
+
+
+<suite name="FirebaseApp_Smoketestsuite">
+
+
+    <test name="FirebaseAppTests">
+    <parameter name="username" value="admin123@gmail.com"/>
+    <parameter name="password" value="admin1234546"/>
+    
+
+        <classes>
+            <class name="com.training.tests.TC1LoginFirebaseapp_TestNG"/>
+            <class name="com.training.tests.TC2Home_Firebaseapp_TestNG"/>
+            <class name="com.training.tests.TC3Switchto_Firebaseapp"/>
+           
+          
+        </classes>
+
+    </test>
+
+</suite>

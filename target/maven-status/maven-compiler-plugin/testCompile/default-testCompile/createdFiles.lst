@@ -1,0 +1,6 @@
+com\testing\pages\Homepage.class
+com\training\tests\TC1LoginFirebaseapp_TestNG.class
+com\testing\pages\Loginpage.class
+com\training\tests\TC2Home_Firebaseapp_TestNG.class
+com\training\tests\TC3Switchto_Firebaseapp.class
+com\testing\pages\Switchpage.class

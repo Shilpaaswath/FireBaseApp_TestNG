@@ -1,0 +1,4 @@
+com\testing\base\BaseTest_FireBase.class
+com\testing\utilities\ScreenshotUtility.class
+com\testing\utilities\PropertiesFile.class
+com\testing\base\Basepage_Firebaseapp.class

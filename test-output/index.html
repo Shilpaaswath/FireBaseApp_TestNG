@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-FirebaseApp_Smoketestsuite" class="navigator-link">
+              <span class="suite-name border-failed">FirebaseApp_Smoketestsuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-FirebaseApp_Smoketestsuite" class="navigator-link ">
+                    <span>C:\TECKARCH\SeleniumTestNG\FireBaseAppTestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-FirebaseApp_Smoketestsuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-FirebaseApp_Smoketestsuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-FirebaseApp_Smoketestsuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-FirebaseApp_Smoketestsuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-FirebaseApp_Smoketestsuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-FirebaseApp_Smoketestsuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods, 2 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-FirebaseApp_Smoketestsuite" class="hide-methods failed suite-FirebaseApp_Smoketestsuite"> (hide)</a> <!-- hide-methods failed suite-FirebaseApp_Smoketestsuite -->
+                      <a href="#" panel-name="suite-FirebaseApp_Smoketestsuite" class="show-methods failed suite-FirebaseApp_Smoketestsuite"> (show)</a> <!-- show-methods failed suite-FirebaseApp_Smoketestsuite -->
+                    </span>
+                    <div class="method-list-content failed suite-FirebaseApp_Smoketestsuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FirebaseApp_Smoketestsuite" title="com.training.tests.TC1LoginFirebaseapp_TestNG" class="method navigator-link" hash-for-method="loginToFirebaseAppwithinvalidentries(admin123@gmail.com, admin1234546)">loginToFirebaseAppwithinvalidentries(admin123@gmail.com, admin1234546)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FirebaseApp_Smoketestsuite" title="com.training.tests.TC1LoginFirebaseapp_TestNG" class="method navigator-link" hash-for-method="loginToFirebasewithonlyusername">loginToFirebasewithonlyusername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-FirebaseApp_Smoketestsuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-FirebaseApp_Smoketestsuite" class="hide-methods passed suite-FirebaseApp_Smoketestsuite"> (hide)</a> <!-- hide-methods passed suite-FirebaseApp_Smoketestsuite -->
+                      <a href="#" panel-name="suite-FirebaseApp_Smoketestsuite" class="show-methods passed suite-FirebaseApp_Smoketestsuite"> (show)</a> <!-- show-methods passed suite-FirebaseApp_Smoketestsuite -->
+                    </span>
+                    <div class="method-list-content passed suite-FirebaseApp_Smoketestsuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FirebaseApp_Smoketestsuite" title="com.training.tests.TC2Home_Firebaseapp_TestNG" class="method navigator-link" hash-for-method="homesubmit">homesubmit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FirebaseApp_Smoketestsuite" title="com.training.tests.TC1LoginFirebaseapp_TestNG" class="method navigator-link" hash-for-method="loginToFirebaseApp">loginToFirebaseApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FirebaseApp_Smoketestsuite" title="com.training.tests.TC3Switchto_Firebaseapp" class="method navigator-link" hash-for-method="switchframe">switchframe</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-FirebaseApp_Smoketestsuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-FirebaseApp_Smoketestsuite" class="panel FirebaseApp_Smoketestsuite">
+          <div class="suite-FirebaseApp_Smoketestsuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.training.tests.TC1LoginFirebaseapp_TestNG</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginToFirebaseAppwithinvalidentries(admin123@gmail.com, admin1234546)">
+                  </a> <!-- loginToFirebaseAppwithinvalidentries(admin123@gmail.com, admin1234546) -->
+                  <span class="method-name">loginToFirebaseAppwithinvalidentries</span>
+                  <span class="parameters">(admin123@gmail.com,admin1234546)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MAGNIFICIENT-S4&apos;, ip: &apos;192.168.1.201&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.sendKeys(Unknown Source)
+	at com.testing.pages.Loginpage.enteremailid(Loginpage.java:34)
+	at com.training.tests.TC1LoginFirebaseapp_TestNG.loginToFirebaseAppwithinvalidentries(TC1LoginFirebaseapp_TestNG.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginToFirebasewithonlyusername">
+                  </a> <!-- loginToFirebasewithonlyusername -->
+                  <span class="method-name">loginToFirebasewithonlyusername</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MAGNIFICIENT-S4&apos;, ip: &apos;192.168.1.201&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.sendKeys(Unknown Source)
+	at com.testing.pages.Loginpage.enteremailid(Loginpage.java:34)
+	at com.training.tests.TC1LoginFirebaseapp_TestNG.loginToFirebasewithonlyusername(TC1LoginFirebaseapp_TestNG.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FirebaseApp_Smoketestsuite-class-failed -->
+          <div class="suite-FirebaseApp_Smoketestsuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.training.tests.TC2Home_Firebaseapp_TestNG</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="homesubmit">
+                  </a> <!-- homesubmit -->
+                  <span class="method-name">homesubmit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FirebaseApp_Smoketestsuite-class-passed -->
+          <div class="suite-FirebaseApp_Smoketestsuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.training.tests.TC1LoginFirebaseapp_TestNG</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginToFirebaseApp">
+                  </a> <!-- loginToFirebaseApp -->
+                  <span class="method-name">loginToFirebaseApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FirebaseApp_Smoketestsuite-class-passed -->
+          <div class="suite-FirebaseApp_Smoketestsuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.training.tests.TC3Switchto_Firebaseapp</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="switchframe">
+                  </a> <!-- switchframe -->
+                  <span class="method-name">switchframe</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FirebaseApp_Smoketestsuite-class-passed -->
+        </div> <!-- panel FirebaseApp_Smoketestsuite -->
+        <div panel-name="test-xml-FirebaseApp_Smoketestsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\TECKARCH\SeleniumTestNG\FireBaseAppTestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;FirebaseApp_Smoketestsuite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;FirebaseAppTests&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;admin1234546&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;admin123@gmail.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.training.tests.TC1LoginFirebaseapp_TestNG&quot;/&gt;
+      &lt;class name=&quot;com.training.tests.TC2Home_Firebaseapp_TestNG&quot;/&gt;
+      &lt;class name=&quot;com.training.tests.TC3Switchto_Firebaseapp&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FirebaseAppTests --&gt;
+&lt;/suite&gt; &lt;!-- FirebaseApp_Smoketestsuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-FirebaseApp_Smoketestsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for FirebaseApp_Smoketestsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">FirebaseAppTests (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-FirebaseApp_Smoketestsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for FirebaseApp_Smoketestsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-FirebaseApp_Smoketestsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for FirebaseApp_Smoketestsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_FirebaseApp_Smoketestsuite');
+function tableData_FirebaseApp_Smoketestsuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'homesubmit')
+data.setCell(0, 2, 'com.training.tests.TC2Home_Firebaseapp_TestNG')
+data.setCell(0, 3, 1826);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'switchframe')
+data.setCell(1, 2, 'com.training.tests.TC3Switchto_Firebaseapp')
+data.setCell(1, 3, 885);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginToFirebaseApp')
+data.setCell(2, 2, 'com.training.tests.TC1LoginFirebaseapp_TestNG')
+data.setCell(2, 3, 336);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginToFirebaseAppwithinvalidentries')
+data.setCell(3, 2, 'com.training.tests.TC1LoginFirebaseapp_TestNG')
+data.setCell(3, 3, 9);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginToFirebasewithonlyusername')
+data.setCell(4, 2, 'com.training.tests.TC1LoginFirebaseapp_TestNG')
+data.setCell(4, 3, 1);
+window.suiteTableData['FirebaseApp_Smoketestsuite']= { tableData: data, tableDiv: 'times-div-FirebaseApp_Smoketestsuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <div id="times-div-FirebaseApp_Smoketestsuite">
+              </div> <!-- times-div-FirebaseApp_Smoketestsuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-FirebaseApp_Smoketestsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for FirebaseApp_Smoketestsuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-FirebaseApp_Smoketestsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-FirebaseApp_Smoketestsuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.training.tests.TC1LoginFirebaseapp_TestNG</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginToFirebaseApp</span>
+                <span class="method-start">2681 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">3021 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginToFirebaseAppwithinvalidentries(admin123@gmail.com, admin1234546)</span>
+                <span class="method-start">3217 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser</span>
+                <span class="method-start">3217 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">3228 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginToFirebasewithonlyusername</span>
+                <span class="method-start">3229 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser</span>
+                <span class="method-start">3229 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">3233 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.training.tests.TC2Home_Firebaseapp_TestNG</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser</span>
+                <span class="method-start">3237 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">homesubmit</span>
+                <span class="method-start">4294 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">6123 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.training.tests.TC3Switchto_Firebaseapp</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser</span>
+                <span class="method-start">6306 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">switchframe</span>
+                <span class="method-start">7125 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">8011 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
